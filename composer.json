@@ -1,9 +1,8 @@
 {
-  "name": "pomm-project/pomm-bundle",
+  "name": "umanit-pomm/pomm-bundle",
   "type": "symfony-bundle",
   "description": "The Symfony2 bundle for Pomm2",
   "keywords": ["orm", "postgresql", "database", "symfony", "pomm"],
-  "homepage": "http://www.pomm-project.org",
   "license": "MIT",
   "authors": [
     {
@@ -18,9 +17,9 @@
   "require": {
     "php": ">=7.1",
     "jdorn/sql-formatter": "~1.2",
-    "pomm-project/model-manager": "~2.0",
-    "pomm-project/cli": "~2.0",
-    "pomm-project/pomm-symfony-bridge": "~2.5|~3.0",
+    "umanit-pomm/model-manager": "~2.2",
+    "umanit-pomm/cli": "~2.1",
+    "umanit-pomm/pomm-symfony-bridge": "~3.0",
     "symfony/framework-bundle": "^3.4|^4.3|^5.0"
   },
   "require-dev": {
@@ -35,11 +34,6 @@
     "psr-4": {
       "PommProject\\PommBundle\\": "sources/lib/"
     }
-  },
-  "extra": {
-      "branch-alias": {
-          "dev-master": "2.0-dev"
-      }
   }
 }
 
