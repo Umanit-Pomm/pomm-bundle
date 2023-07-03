@@ -12,6 +12,7 @@ namespace PommProject\PommBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\PassConfig;
+use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 
 /**
  * PommBundle
@@ -55,7 +56,7 @@ class PommBundle extends Bundle
      *
      * @see Bundle
      */
-    public function getContainerExtension()
+    public function getContainerExtension(): ?ExtensionInterface
     {
         return new DependencyInjection\PommExtension();
     }
