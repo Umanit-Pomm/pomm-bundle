@@ -18,7 +18,7 @@
     "php": ">=7.1",
     "jdorn/sql-formatter": "~1.2",
     "umanit-pomm/model-manager": "dev-master",
-    "umanit-pomm/cli": "2.0-dev",
+    "umanit-pomm/cli": "dev-2.0",
     "umanit-pomm/pomm-symfony-bridge": "dev-master",
     "symfony/framework-bundle": "^3.4|^4.3|^5.0|^6.3"
   },
